@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="350.0" prefWidth="451.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kripto_projekat.controllers.LoginController">
+   <children>
+      <Label layoutX="96.0" layoutY="127.0" prefHeight="32.0" prefWidth="78.0" text="Username" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameTextField" layoutX="200.0" layoutY="131.0" />
+      <Label layoutX="96.0" layoutY="181.0" prefHeight="32.0" prefWidth="78.0" text="Password">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginButton" layoutX="170.0" layoutY="269.0" mnemonicParsing="false" onAction="#loginButtonPressed" prefHeight="54.0" prefWidth="112.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordTextField" layoutX="200.0" layoutY="185.0" />
+      <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButtonPressed" prefHeight="25.0" prefWidth="68.0" text="&lt;- Back" textAlignment="CENTER" />
+      <Label fx:id="labelPath" layoutX="12.0" layoutY="72.0" prefHeight="17.0" prefWidth="433.0" text="Path: " />
+   </children>
+</AnchorPane>

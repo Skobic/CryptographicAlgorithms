@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="379.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kripto_projekat.controllers.ChooseAlgorithmController">
+   <children>
+      <Button fx:id="railFenceButton" layoutX="71.0" layoutY="32.0" mnemonicParsing="false" onAction="#railFenceButtonPressed" prefHeight="62.0" prefWidth="158.0" text="Rail fence">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="myszkowskiButton" layoutX="71.0" layoutY="112.0" mnemonicParsing="false" onAction="#myszkowskiButtonPressed" prefHeight="62.0" prefWidth="158.0" text="Myszkowski">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="playfairButton" layoutX="71.0" layoutY="200.0" mnemonicParsing="false" onAction="#playfairButtonPressed" prefHeight="62.0" prefWidth="158.0" text="Playfair">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="viewHistoryButton" layoutX="71.0" layoutY="283.0" mnemonicParsing="false" onAction="#viewHistoryButtonPressed" prefHeight="62.0" prefWidth="158.0" text="View history">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

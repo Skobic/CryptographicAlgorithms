@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="505.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kripto_projekat.controllers.RegisterController">
+   <children>
+      <Label layoutX="25.0" layoutY="81.0" prefHeight="32.0" prefWidth="78.0" text="Username" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernameTextField" layoutX="200.0" layoutY="84.0" />
+      <Label layoutX="25.0" layoutY="130.0" prefHeight="32.0" prefWidth="78.0" text="Password">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="registerButton" layoutX="144.0" layoutY="422.0" mnemonicParsing="false" onAction="#registerButtonPressed" prefHeight="54.0" prefWidth="112.0" text="Register">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordTextField" layoutX="200.0" layoutY="133.0" />
+      <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButtonPressed" prefHeight="25.0" prefWidth="68.0" text="&lt;- Back" textAlignment="CENTER" />
+      <Label layoutX="24.0" layoutY="232.0" text="Organization unit">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="181.0" text="Organization">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="320.0" text="State (province)">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="276.0" text="Contry">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="368.0" text="E-mail">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="organizationTextField" layoutX="200.0" layoutY="179.0" />
+      <TextField fx:id="organizationUnitTextField" layoutX="200.0" layoutY="230.0" />
+      <TextField fx:id="countryTextField" layoutX="200.0" layoutY="274.0" />
+      <TextField fx:id="stateTextField" layoutX="200.0" layoutY="318.0" />
+      <TextField fx:id="emailTextField" layoutX="200.0" layoutY="366.0" />
+   </children>
+</AnchorPane>

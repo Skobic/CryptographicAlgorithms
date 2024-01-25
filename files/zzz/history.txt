@@ -1,0 +1,7 @@
+test|RAIL FENCE|3|tets
+eeeqweqe|RAIL FENCE|3|eweqeeeq
+test|RAIL FENCE|3|tets
+test|RAIL FENCE|3|tets
+testtttt|RAIL FENCE|3|ttetttst
+qweqweqwe|RAIL FENCE|5|qewweqqew
+AWAASDASD|MYSZKOWSKI|TEST|ASDASDAWAAWA

@@ -1,0 +1,4 @@
+test|RAIL FENCE|3|tets
+test|RAIL FENCE|3|tets
+test|RAIL FENCE|3|tets
+proba|RAIL FENCE|3|parbo

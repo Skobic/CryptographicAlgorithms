@@ -1,4 +1,4 @@
-An application that simulates the operation of simple cryptographic algorithms: Rail fence, Myszkowski i Playfair.
+An application that simulates the operation of simple cryptographic algorithms: Rail fence, Myszkowski i Playfair. 
 When you register, it creates a certificate for you.
 ![s1](https://github.com/Skobic/CryptographicAlgorithms/assets/33008995/1587f7e5-06bc-4e1b-a101-25561d711f87)
 
